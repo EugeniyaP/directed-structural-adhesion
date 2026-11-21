@@ -9,6 +9,20 @@ Unlike vertex-connectivity models (e.g., Moody & White's structural cohesion) or
 - **Recursive Induced 2-ESCC Extraction:** Refines 2-edge-connected blocks into strict maximal induced subgraphs via iterative strong-bridge removal.
 - **Topological Sieve Diagnostics:** Measures vertex/edge compression ratios and prestige concentration (PageRank, HITS Authority, Indegree) across adhesive layers.
 
+## Quick Start
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. **Run the standalone $\lambda$-SA & Topological Sieve demo:**
+   ```bash
+   python demo_lambda_sa.py
+   ```
+
+
+
+
 ## Citation
 ```bibtex
 @article{perekhodko2026architecture,
